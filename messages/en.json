@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "home": { "title": "Navitecs Flow: timesheets, leave, tasks and invoices in one workspace", "description": "Navitecs Flow brings timesheets, leave, tasks and invoices into one connected workspace. Try the interactive demo with no sign-up." },
+    "features": { "title": "Features", "description": "Every Navitecs Flow module: timesheets, overtime, leave, sick reports, tasks, invoicing, people, roles and themes." },
+    "demo": { "title": "Interactive demo", "description": "Use Navitecs Flow right now with sample data. Log hours, submit a month, approve it as HR. No sign-up." },
+    "solutions": { "title": "Solutions", "description": "What Navitecs Flow does for workers, team leads, HR, finance and company owners." },
+    "pricing": { "title": "Pricing", "description": "Navitecs Flow pricing per active employee, with monthly or yearly billing." },
+    "contact": { "title": "Contact", "description": "Talk to the Navitecs team about your company." },
+    "privacy": { "title": "Privacy", "description": "How this website handles what you send through the contact form." }
+  },
+  "nav": {
+    "product": "Product", "features": "Features", "demo": "Demo", "solutions": "Solutions", "pricing": "Pricing", "contact": "Contact",
+    "create": "Create your workspace", "menu": "Menu", "close": "Close menu", "language": "Language", "skip": "Skip to content", "main": "Main"
+  },
+  "hero": {
+    "title": "Less admin. More of the work that matters.",
+    "lede": "Navitecs Flow brings timesheets, leave, tasks and invoices into one connected workspace, so your team stops chasing paperwork and gets back to moving your business forward.",
+    "primary": "Explore the interactive demo",
+    "secondary": "Discover features",
+    "note": "Try it right now. No sign-up needed.",
+    "benefits": [
+      "Fill a whole month of hours in one click",
+      "Requests and approvals in one place",
+      "Everyone sees what needs doing next"
+    ]
+  },
+  "reveal": {
+    "title": "Your whole month at a glance",
+    "lede": "Open Navitecs Flow and your month is already there: hours, breaks, vacation, holidays and anything that still needs you.",
+    "cardInvoice": "Outstanding invoices",
+    "cardInvoiceValue": "€9,290.50",
+    "cardNotice": "Your timesheet was approved.",
+    "cardDay": "Required 7h 30m, logged 7h 30m",
+    "sample": "Sample data"
+  },
+  "strip": {
+    "text": "Seven themes. Two languages. Six roles ready to use. Forty-four kinds of notification, so the right person hears about the right thing."
+  },
+  "hub": {
+    "title": "One platform. Every moving part.",
+    "lede": "Hours feed overtime. Overtime feeds time off. Time off shows up on the calendar and the monthly form. In Navitecs Flow these are one system, so nobody retypes anything.",
+    "points": ["One login for everyone", "One calendar for all of it", "One place to approve things"],
+    "modules": { "timesheets": "Timesheets", "overtime": "Overtime", "leave": "Leave", "absences": "Sick reports", "tasks": "Tasks", "calendar": "Calendar", "invoices": "Invoices", "people": "People" },
+    "center": "Your workspace"
+  },
+  "demo": {
+    "title": "Don't take our word for it. Use it.",
+    "lede": "This is a working copy of Navitecs Flow with a sample company. Log hours, submit the month, then switch to HR and approve it.",
+    "fullscreen": "Open the full demo",
+    "loading": "Loading the demo",
+    "pageTitle": "Try Navitecs Flow with a sample company",
+    "pageLede": "Everything here runs in your browser with invented data. Nothing you type is sent anywhere. Start with the guided tour, or click around.",
+    "tabsLabel": "Choose a module",
+    "context": {
+      "timesheets": "Click any day to add a block, or use Autofill month. Overlapping blocks are refused and totals update as you go.",
+      "leave": "Vacation waits for HR. Sick leave is booked at once and HR only acknowledges it, which is exactly how the product treats them.",
+      "toil": "Overtime can become free time. Approve the overtime as HR and the balance appears here.",
+      "tasks": "Comment on a task and watch a colleague reply live. Filter by status or search by title.",
+      "calendar": "Tasks, time off and holidays together. In the product, a private link puts this in your own calendar app.",
+      "approvals": "Timesheets, overtime, leave and sick reports all land in one queue. Reject a single day with a note and only that day comes back.",
+      "people": "Search and filter your company, then invite someone. Accounts are invite-only.",
+      "export": "The monthly form builds itself from the timesheets. In the product this is a real .xlsx, with your own template if you like.",
+      "roles": "Built-in roles stay fixed. Create a custom role from a copy, then tick what it may do.",
+      "invoices": "Draft, send for review, issue, then record part of a payment. The tiles at the top follow along.",
+      "absences": "A company sets up its own absence types. Switch to HR and admin to see the catalogue and decide requests.",
+      "clients": "Client records with default terms and document language. New clients appear on new invoices straight away.",
+      "expenses": "A plain record of what was spent, with the paperwork attached. There is no approval step.",
+      "templates": "Recolour the built-in template and watch the preview, or look at your own layout and Word file.",
+      "departments": "Move someone between departments and their history stays. Teams have leaders who run them.",
+      "schedules": "Company defaults apply to everyone, and a dated version changes one person from a chosen day.",
+      "activeMonth": "Choose which months accept timesheet entries. The current month always stays open.",
+      "settings": "Two-step verification, themes and language. Everything here is a sample, so no real code or account is involved."
+    }
+  },
+  "stories": {
+    "timesheet": {
+      "title": "Track time, not complexity",
+      "lede": "Most days take one click. Your work schedule fills in the blocks and the schedule check tells you what is still missing.",
+      "steps": [
+        { "title": "Pick a day", "text": "The calendar shows what is logged, what is missing and what is a holiday." },
+        { "title": "Add a block, or autofill", "text": "Enter a start and end time, or fill a day or a whole month from your schedule." },
+        { "title": "Send it for approval", "text": "Submit is only available when every day is complete, so HR gets clean months." }
+      ]
+    },
+    "leave": {
+      "title": "Time off without the back-and-forth",
+      "lede": "Vacation needs a yes. Sickness doesn't. Navitecs Flow treats them differently, because they are.",
+      "requested": { "title": "Requested", "text": "A worker picks dates and sees how many days it will use. Weekends and holidays don't count. HR approves, and the days appear on the calendar." },
+      "reported": { "title": "Reported", "text": "Sick leave is booked at once. HR and chosen colleagues are told, and the worker can extend it or end it early." },
+      "document": { "title": "Documented", "text": "Photograph the doctor's certificate with a phone. It is encrypted before storage, reminders go out before the deadline, and every read is logged." },
+      "toilTitle": "Overtime that turns into free time",
+      "toilText": "Where company policy allows, workers choose per day whether overtime is paid or banked. HR approves it, and the balance is always worked out from the real days behind it."
+    },
+    "invoices": {
+      "title": "Invoices that know where they stand",
+      "lede": "Draft, review, issue, get paid. Numbering, partial payments and overdue marking are handled for you.",
+      "points": [
+        "Route an invoice to one or more reviewers before it goes out",
+        "Record full or partial payments as they arrive",
+        "Unpaid invoices move to overdue on their own",
+        "Download as PDF or Word, on your own layout or letterhead",
+        "Keep clients and expenses, with scanned receipts, in the same place"
+      ]
+    },
+    "people": {
+      "title": "Your people, properly organised",
+      "lede": "Departments, teams and permissions that match how your company actually works.",
+      "cards": [
+        { "title": "Invite-only accounts", "text": "Staff join by email invite and set their own password." },
+        { "title": "Departments", "text": "Move people between departments and keep a history of where they have been." },
+        { "title": "Teams", "text": "Every team has a leader, who can manage it without being an admin." },
+        { "title": "Work schedules", "text": "Set company hours once, then give any person their own dated schedule." },
+        { "title": "Roles and permissions", "text": "Six roles out of the box, plus your own, with a clear permission matrix." }
+      ]
+    },
+    "tasks": {
+      "title": "Work that doesn't get lost",
+      "lede": "Assign tasks to people or whole teams. Comments, links and status changes appear live, for everyone on the task."
+    },
+    "notifications": {
+      "title": "Stay informed without the noise",
+      "lede": "The in-app bell tells people what needs them and takes them straight there. Everything else stays quiet.",
+      "items": [
+        "Maya Chen submitted their timesheet.",
+        "Your vacation was approved.",
+        "A document is due tomorrow.",
+        "Invoice INV-2026-014 is overdue.",
+        "Tarik assigned you a task."
+      ]
+    },
+    "export": {
+      "title": "The monthly form, already filled in",
+      "lede": "The monthly timesheet is generated from what people logged, with one sheet per employee, for everyone, one department or chosen people.",
+      "points": [
+        "Use the built-in template, or upload your own .xlsx and map it cell by cell",
+        "Year overviews and monthly totals for each person",
+        "Overtime, leave and time-off balances in one place"
+      ]
+    }
+  },
+  "themes": {
+    "title": "Make it yours. Your team will thank you.",
+    "lede": "Everyone picks their own look, and it follows them to any device. These are the app's real themes on a real screen.",
+    "label": "Choose a theme",
+    "names": { "aurora": "Aurora", "midnight": "Midnight", "daylight": "Daylight", "paper": "Paper", "nebula": "Nebula", "contrast": "High contrast", "custom": "Custom" },
+    "descriptions": {
+      "aurora": "The original look: dark, with drifting colour.",
+      "midnight": "Flat dark with no moving background.",
+      "daylight": "Clean and light with no moving background.",
+      "paper": "A warm light tone, easier on the eyes for long sessions.",
+      "nebula": "Dark with drifting colour and a starfield.",
+      "contrast": "Maximum legibility, with stronger text and borders.",
+      "custom": "Pick your own background and colours."
+    },
+    "custom": { "base": "Base", "dark": "Dark", "light": "Light", "canvas": "Background", "colours": "Colours", "intensity": "Intensity", "subtle": "Subtle", "normal": "Normal", "vivid": "Vivid", "motion": "Motion", "animated": "Animated", "still": "Still" }
+  },
+  "impact": {
+    "title": "What would less admin be worth to you?",
+    "lede": "Enter your own numbers. We don't publish savings figures, because your company isn't an average.",
+    "employees": "Employees",
+    "adminHours": "Admin hours per person, per week",
+    "saved": "Share of that time you expect to save",
+    "cost": "Hourly labour cost (optional)",
+    "resultHours": "hours back each year",
+    "resultWeeks": "That is about {weeks} full working weeks.",
+    "resultCost": "Worth about {amount} a year at your hourly cost.",
+    "chartLabel": "Hours spent on admin each year",
+    "today": "Today",
+    "after": "With your estimate",
+    "disclaimer": "This is an estimate based only on what you entered, over {weeks} working weeks a year. It is not a measured result or a guarantee."
+  },
+  "pricing": {
+    "title": "Pay for the people who use it",
+    "lede": "One price per active employee. Pick the plan that matches how much of Navitecs Flow you need.",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "billingLabel": "Billing period",
+    "saveNote": "Two to three months free",
+    "perEmployee": "per employee / month",
+    "popular": "Most Popular",
+    "seats": "How many employees?",
+    "total": "{amount} a month for {seats} employees",
+    "totalYearly": "{amount} a month for {seats} employees, billed yearly",
+    "custom": "Custom",
+    "customNote": "Agreed with you",
+    "everyPlan": "Every plan includes two-step verification, encrypted documents, all themes, English and Bosnian, and mobile web access.",
+    "compare": "Compare plans in full",
+    "compareTitle": "Compare every feature",
+    "included": "Included",
+    "notIncluded": "Not included",
+    "feature": "Feature",
+    "plans": {
+      "essentials": { "name": "Essentials", "for": "Time and attendance for a company of any size.", "cta": "Start with Essentials", "highlights": ["Timesheets with autofill", "Approvals and overtime", "Work schedules and holidays", "Timesheet export, built-in template", "Calendar with private feed"] },
+      "team": { "name": "Team", "for": "Everything a team needs to run its day.", "cta": "Start with Team", "highlights": ["Everything in Essentials", "Vacation, absences and documents", "Time off in lieu", "Tasks and teams", "Your own timesheet templates"] },
+      "business": { "name": "Business", "for": "Your people and your finances together.", "cta": "Start with Business", "highlights": ["Everything in Team", "Invoicing with review routing", "Clients and expenses", "All invoice template modes", "Custom roles"] },
+      "enterprise": { "name": "Enterprise", "for": "For larger organisations.", "cta": "Talk to us", "highlights": ["Everything in Business", "Volume pricing", "Help moving your data and templates"] }
+    },
+    "groups": { "time": "Time and attendance", "people": "People and work", "finance": "Finance", "everyPlan": "In every plan", "service": "Service" },
+    "features": {
+      "timesheets": "Timesheets and calendar", "autofill": "Autofill for days and months", "approvals": "Month and per-day approvals", "overtime": "Overtime tracking and approval",
+      "schedules": "Work schedules and holidays", "calendarFeed": "Private calendar feed", "exportBuiltIn": "Timesheet export, built-in template", "exportCustom": "Timesheet export, your own template",
+      "departments": "Departments and invites", "vacation": "Vacation and leave balances", "absences": "Absence requests, sick reports and documents", "toil": "Time off in lieu",
+      "tasks": "Tasks with live updates", "teams": "Teams", "customRoles": "Custom roles",
+      "invoicing": "Invoicing with review and payments", "clients": "Client records", "expenses": "Expenses with attachments", "templates": "Designer, layout and Word invoice templates",
+      "twoFactor": "Two-step verification and company rules", "themes": "All themes", "languages": "English and Bosnian", "notifications": "In-app notifications",
+      "volume": "Volume pricing", "migration": "Help moving your data and templates"
+    }
+  },
+  "how": {
+    "title": "Up and running in three steps",
+    "steps": [
+      { "title": "Register your company", "text": "Create a workspace and confirm your email." },
+      { "title": "Set your schedule", "text": "A short setup asks for your working hours and opens the current month." },
+      { "title": "Invite your team", "text": "Everyone gets an email, sets a password and can log time the same day." }
+    ]
+  },
+  "security": {
+    "title": "Built for sensitive data",
+    "lede": "Timesheets and medical certificates deserve care. Here is what Navitecs Flow does, in plain terms.",
+    "items": [
+      { "title": "Two-step verification", "text": "Authenticator app sign-in with recovery codes. A company can require it for admins or for everyone." },
+      { "title": "Encrypted documents", "text": "Absence documents and expense attachments are encrypted with AES-256-GCM before they are stored." },
+      { "title": "Logged document access", "text": "Only the owner and approved staff can open an absence document, and every read is recorded." },
+      { "title": "Short-lived sessions", "text": "Access tokens last 15 minutes. Deactivating someone or signing out everywhere takes effect within about 30 seconds." },
+      { "title": "A permission for everything", "text": "Access is decided by a permission matrix and denied by default." },
+      { "title": "Account lockout", "text": "Five failed sign-in attempts lock the account for 15 minutes." }
+    ]
+  },
+  "faq": {
+    "title": "Questions, answered",
+    "items": [
+      { "q": "Can I try it before talking to anyone?", "a": "Yes. The interactive demo runs in your browser with a sample company and needs no sign-up." },
+      { "q": "How is the price worked out?", "a": "You pay per active employee per month. Choose monthly or yearly billing." },
+      { "q": "Is there a mobile app?", "a": "There is nothing to install. Navitecs Flow is designed to work in your phone's browser, including taking a photo of a certificate or receipt with the camera." },
+      { "q": "Which languages does it support?", "a": "The whole product is available in English and Bosnian, and each person chooses their own." },
+      { "q": "Can it send invoices to my clients?", "a": "You download invoices as PDF or Word and send them yourself. Payments are recorded by hand, and overdue invoices are marked automatically." },
+      { "q": "Does it work with Outlook or Google Calendar?", "a": "Yes, one way. Each person gets a private calendar link that Outlook, Google Calendar and Apple Calendar can subscribe to." },
+      { "q": "Who can see a sick note?", "a": "Only the worker and staff allowed to approve leave. Files are encrypted, and each read is logged." },
+      { "q": "Can we use our own timesheet form?", "a": "Yes. Upload your own Excel file and map it cell by cell, or use the built-in template." }
+    ]
+  },
+  "cta": {
+    "title": "See your own month in Navitecs Flow",
+    "lede": "Start with the demo, or set up a workspace for your company today.",
+    "demo": "Explore the interactive demo",
+    "talk": "Talk to us"
+  },
+  "footer": {
+    "tagline": "Timesheets, leave, tasks and invoices in one connected workspace.",
+    "product": "Product", "company": "Company", "legal": "Legal", "privacy": "Privacy",
+    "rights": "All rights reserved."
+  },
+  "featuresPage": {
+    "title": "Everything in Navitecs Flow",
+    "lede": "Every module below exists in the product today, and each one has its own guided presentation in the demo.",
+    "tryIt": "Try this in the demo",
+    "groups": { "time": "Time and attendance", "off": "Time off", "work": "Work", "finance": "Finance", "people": "People and setup" },
+    "modules": {
+      "timesheets": { "title": "Timesheets", "text": "A month calendar with a day panel and timeline. Work, breaks, compensation, field work, standby and other work time, checked against each person's schedule." },
+      "approvals": { "title": "Approvals", "text": "Draft, submit, approve or reject. Reviewers can flag single days with a note, and months can be unlocked when needed." },
+      "overtime": { "title": "Overtime", "text": "Worked out from the schedule and only counted once HR approves the day, with a queue for bulk approval." },
+      "activeMonth": { "title": "Open months", "text": "Control which months workers can edit. Each new month opens when it is needed." },
+      "export": { "title": "Timesheet export", "text": "A monthly Excel file with one sheet per employee, from the built-in template or your own mapped .xlsx." },
+      "vacation": { "title": "Vacation", "text": "Balances, leave blocks with windows and minimum days, a calendar preview, and a queue for bookings that no longer fit a new policy." },
+      "absences": { "title": "Absence requests", "text": "Your own catalogue of absence types. Request ranges of days, propose make-up time, and let HR approve with or without compensation." },
+      "sick": { "title": "Sick reports and documents", "text": "Booked at once, extended or ended early. Certificates are compressed on the phone, encrypted and logged." },
+      "toil": { "title": "Time off in lieu", "text": "Workers choose paid or banked overtime where allowed, see a ledger, and spend it as days off." },
+      "tasks": { "title": "Tasks", "text": "Priorities, due dates, tags, comments, links and an activity timeline, for people or whole teams, with live updates." },
+      "calendar": { "title": "Calendar", "text": "One month view of tasks, time, vacation, absences and holidays, plus a private feed for your calendar app." },
+      "notifications": { "title": "Notifications", "text": "An in-app bell with live pop-ups and links straight to the right screen." },
+      "invoices": { "title": "Invoices", "text": "Line items with discount and tax, numbering, multi-person review, partial payments, comments and an activity feed." },
+      "clients": { "title": "Clients", "text": "Full client records with logos, default terms and document language." },
+      "expenses": { "title": "Expenses", "text": "Suppliers, tax, and scanned or photographed attachments." },
+      "templates": { "title": "Invoice templates", "text": "A built-in designer, your own letterhead layout, or your own Word file with mapped fields." },
+      "people": { "title": "People", "text": "Invites, roles, per-person drill-down, and a workforce summary." },
+      "departments": { "title": "Departments and teams", "text": "Membership history for departments, and teams with leaders who can run them." },
+      "schedules": { "title": "Work schedules", "text": "Company defaults with dated overrides for each person, plus overtime policy." },
+      "roles": { "title": "Roles and permissions", "text": "A role matrix across modules, with custom roles cloned from a base role." },
+      "security": { "title": "Account security", "text": "Two-step verification with recovery codes, a company-wide requirement, and sign out everywhere." },
+      "appearance": { "title": "Themes and languages", "text": "Six themes plus a custom one, English and Bosnian, and personal time zones." }
+    }
+  },
+  "solutionsPage": {
+    "title": "One workspace. A different day for everyone.",
+    "lede": "Navitecs Flow shows each person what they need and nothing they don't.",
+    "try": "See it in the demo",
+    "roles": {
+      "workers": { "title": "For workers", "lede": "Log your hours in a click and always know where you stand.", "points": ["Autofill a day or a month from your schedule", "See your vacation and time-off balances", "Report sick leave from your phone", "Choose paid or banked overtime where allowed"] },
+      "leads": { "title": "For team leads", "lede": "Know what your team is doing without asking.", "points": ["Assign work to people or the whole team", "Follow comments and status changes live", "Approve requests to leave a task", "Manage the teams you lead"] },
+      "hr": { "title": "For HR", "lede": "Stop chasing timesheets. Handle exceptions instead.", "points": ["One queue for timesheets, overtime and leave", "Reject a single day instead of a whole month", "Generate timesheets for everyone at once", "Receive certificates safely, with deadline reminders"] },
+      "finance": { "title": "For finance", "lede": "Know what is owed, what is late and what needs review.", "points": ["Four headline figures at the top of every invoice list", "Review routing before anything is issued", "Partial payments and automatic overdue marking", "Expenses with attachments in the same place"] },
+      "owners": { "title": "For company owners", "lede": "Replace a pile of tools and spreadsheets with one workspace.", "points": ["Register your company and start the same day", "Set the rules once: schedules, leave policy, overtime", "Decide exactly who can do what", "Require two-step verification across the company"] }
+    }
+  },
+  "contactPage": {
+    "title": "Talk to us",
+    "lede": "Tell us about your company and we'll get back to you.",
+    "name": "Your name", "email": "Work email", "company": "Company", "size": "Number of employees", "message": "How can we help?",
+    "send": "Send message", "sending": "Sending",
+    "success": "Thanks, your message has been sent. We'll reply by email.",
+    "error": "Your message wasn't sent. Check the form and try again, or email us at {email}.",
+    "unavailable": "The form isn't available right now. Please email us at {email}.",
+    "rateLimited": "Too many messages. Wait a few minutes, or email us at {email}.",
+    "direct": "Prefer email?",
+    "address": "Find us",
+    "privacyNote": "We use these details only to reply to you. See the privacy page.",
+    "planNote": "You're asking about the {plan} plan.",
+    "workspaceNote": "Tell us about your company and we'll set up your workspace with you."
+  },
+  "privacyPage": {
+    "title": "Privacy",
+    "sections": [
+      { "title": "Who we are", "text": "This website is run by {legalName}, {address}." },
+      { "title": "What the contact form collects", "text": "Your name, email, company, company size and message. We use them only to reply to you." },
+      { "title": "The interactive demo", "text": "The demo runs in your browser with invented data. What you type stays in your browser's session storage and isn't sent to us." },
+      { "title": "Contact", "text": "For any question about your data, write to {email}." }
+    ]
+  },
+  "notFound": { "title": "This page doesn't exist", "lede": "The link may be old, or the address may be mistyped.", "home": "Go to the home page" }
+}

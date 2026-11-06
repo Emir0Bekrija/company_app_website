@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "home": { "title": "Navitecs Flow: evidencija rada, odsustva, zadaci i fakture na jednom mjestu", "description": "Navitecs Flow objedinjuje evidenciju rada, odsustva, zadatke i fakture u jedan povezan radni prostor. Isprobajte interaktivni demo bez registracije." },
+    "features": { "title": "Mogućnosti", "description": "Svi Navitecs Flow moduli: evidencija rada, prekovremeni rad, odsustva, bolovanja, zadaci, fakturisanje, ljudi, uloge i teme." },
+    "demo": { "title": "Interaktivni demo", "description": "Koristite Navitecs Flow odmah, s primjerima podataka. Unesite sate, pošaljite mjesec i odobrite ga kao HR. Bez registracije." },
+    "solutions": { "title": "Rješenja", "description": "Šta Navitecs Flow donosi radnicima, vođama timova, HR-u, finansijama i vlasnicima firmi." },
+    "pricing": { "title": "Cijene", "description": "Cijene aplikacije Navitecs Flow po aktivnom radniku, uz mjesečno ili godišnje plaćanje." },
+    "contact": { "title": "Kontakt", "description": "Razgovarajte s Navitecs timom o svojoj firmi." },
+    "privacy": { "title": "Privatnost", "description": "Kako ova stranica postupa s podacima koje pošaljete putem kontakt obrasca." }
+  },
+  "nav": {
+    "product": "Proizvod", "features": "Mogućnosti", "demo": "Demo", "solutions": "Rješenja", "pricing": "Cijene", "contact": "Kontakt",
+    "create": "Kreirajte radni prostor", "menu": "Meni", "close": "Zatvori meni", "language": "Jezik", "skip": "Preskoči na sadržaj", "main": "Glavna navigacija"
+  },
+  "hero": {
+    "title": "Manje administracije. Više posla koji je zaista bitan.",
+    "lede": "Navitecs Flow objedinjuje evidenciju rada, odsustva, zadatke i fakture u jedan povezan radni prostor, kako bi se vaš tim prestao baviti papirima i vratio se poslu koji pokreće vašu firmu.",
+    "primary": "Isprobajte interaktivni demo",
+    "secondary": "Pogledajte mogućnosti",
+    "note": "Probajte odmah. Registracija nije potrebna.",
+    "benefits": [
+      "Popunite sate za cijeli mjesec jednim klikom",
+      "Zahtjevi i odobrenja na jednom mjestu",
+      "Svako vidi šta sljedeće treba uraditi"
+    ]
+  },
+  "reveal": {
+    "title": "Cijeli mjesec na prvi pogled",
+    "lede": "Otvorite Navitecs Flow i vaš mjesec je već tu: sati, pauze, godišnji odmor, praznici i sve što još čeka na vas.",
+    "cardInvoice": "Neplaćene fakture",
+    "cardInvoiceValue": "9.290,50 €",
+    "cardNotice": "Vaša evidencija rada je odobrena.",
+    "cardDay": "Potrebno 7h 30m, evidentirano 7h 30m",
+    "sample": "Primjer podataka"
+  },
+  "strip": {
+    "text": "Sedam tema. Dva jezika. Šest uloga spremnih za rad. Četrdeset četiri vrste obavijesti, da prava osoba sazna pravu stvar."
+  },
+  "hub": {
+    "title": "Jedna platforma. Svaki dio posla.",
+    "lede": "Sati vode do prekovremenog. Prekovremeno vodi do slobodnih dana. Slobodni dani se vide u kalendaru i na mjesečnom obrascu. U aplikaciji Navitecs Flow to je jedan sistem, pa niko ništa ne prepisuje.",
+    "points": ["Jedna prijava za sve", "Jedan kalendar za sve", "Jedno mjesto za odobrenja"],
+    "modules": { "timesheets": "Evidencija rada", "overtime": "Prekovremeno", "leave": "Godišnji", "absences": "Bolovanja", "tasks": "Zadaci", "calendar": "Kalendar", "invoices": "Fakture", "people": "Ljudi" },
+    "center": "Vaš radni prostor"
+  },
+  "demo": {
+    "title": "Nemojte nam vjerovati na riječ. Isprobajte.",
+    "lede": "Ovo je radna kopija aplikacije Navitecs Flow s izmišljenom firmom. Unesite sate, pošaljite mjesec, zatim se prebacite na HR i odobrite ga.",
+    "fullscreen": "Otvorite cijeli demo",
+    "loading": "Učitavanje demoa",
+    "pageTitle": "Isprobajte Navitecs Flow na primjeru firme",
+    "pageLede": "Sve ovdje radi u vašem pregledniku, s izmišljenim podacima. Ništa što unesete se nigdje ne šalje. Počnite vođenim obilaskom ili slobodno istražujte.",
+    "tabsLabel": "Odaberite modul",
+    "context": {
+      "timesheets": "Kliknite na bilo koji dan da dodate blok ili koristite Automatski popuni mjesec. Blokovi koji se preklapaju se odbijaju, a ukupni sati se odmah ažuriraju.",
+      "leave": "Godišnji čeka HR. Bolovanje se evidentira odmah, a HR ga samo potvrđuje, baš kao u proizvodu.",
+      "toil": "Prekovremeno može postati slobodno vrijeme. Odobrite ga kao HR i stanje će se pojaviti ovdje.",
+      "tasks": "Komentarišite zadatak i pogledajte kako kolega odgovara uživo. Filtrirajte po statusu ili pretražite po naslovu.",
+      "calendar": "Zadaci, odsustva i praznici zajedno. U proizvodu ih privatni link prenosi u vašu kalendar aplikaciju.",
+      "approvals": "Evidencija, prekovremeno, odsustva i bolovanja stižu u jedan red. Odbijte samo jedan dan uz napomenu i vraća se samo taj dan.",
+      "people": "Pretražite i filtrirajte firmu, pa pozovite nekoga. Računi se otvaraju isključivo putem pozivnice.",
+      "export": "Mjesečni obrazac nastaje sam iz evidencije. U proizvodu je to prava .xlsx datoteka, po želji na vašem predlošku.",
+      "roles": "Ugrađene uloge ostaju iste. Napravite prilagođenu ulogu iz kopije, pa označite šta smije raditi.",
+      "invoices": "Napravite nacrt, pošaljite na pregled, izdajte, pa evidentirajte dio uplate. Pločice na vrhu prate svaku promjenu.",
+      "absences": "Firma postavlja vlastite vrste odsustva. Prebacite se na HR i admin da vidite katalog i riješite zahtjeve.",
+      "clients": "Evidencija klijenata sa zadanim uslovima i jezikom dokumenata. Novi klijenti se odmah pojavljuju na novim fakturama.",
+      "expenses": "Jednostavan zapis o potrošenom, uz priložene dokumente. Nema koraka odobravanja.",
+      "templates": "Promijenite boju ugrađenog predloška i pratite pregled ili pogledajte vlastiti izgled i Word datoteku.",
+      "departments": "Premjestite nekoga između odjela i historija ostaje. Timovi imaju vođe koji ih vode.",
+      "schedules": "Zadane postavke firme važe za sve, a datirana verzija mijenja jednu osobu od odabranog dana.",
+      "activeMonth": "Odaberite koji mjeseci primaju unose evidencije. Tekući mjesec uvijek ostaje otvoren.",
+      "settings": "Provjera u dva koraka, teme i jezik. Ovdje je sve primjer, pa nije uključen nijedan stvarni kod ili račun."
+    }
+  },
+  "stories": {
+    "timesheet": {
+      "title": "Pratite vrijeme, ne komplikacije",
+      "lede": "Većina dana traži jedan klik. Raspored rada popuni blokove, a provjera rasporeda pokaže šta još nedostaje.",
+      "steps": [
+        { "title": "Odaberite dan", "text": "Kalendar pokazuje šta je uneseno, šta nedostaje i šta je praznik." },
+        { "title": "Dodajte blok ili koristite automatsko popunjavanje", "text": "Unesite početak i kraj ili popunite dan ili cijeli mjesec prema rasporedu." },
+        { "title": "Pošaljite na odobrenje", "text": "Slanje je moguće tek kad su svi dani popunjeni, pa HR dobija uredne mjesece." }
+      ]
+    },
+    "leave": {
+      "title": "Odsustva bez prepiske",
+      "lede": "Za godišnji treba odobrenje. Za bolest ne treba. Navitecs Flow ih tretira različito, jer i jesu različiti.",
+      "requested": { "title": "Zatraženo", "text": "Radnik bira datume i vidi koliko će dana iskoristiti. Vikendi i praznici se ne računaju. HR odobri i dani se pojave u kalendaru." },
+      "reported": { "title": "Prijavljeno", "text": "Bolovanje se evidentira odmah. HR i odabrane kolege dobijaju obavijest, a radnik ga može produžiti ili ranije završiti." },
+      "document": { "title": "Dokumentovano", "text": "Fotografišite ljekarsku potvrdu telefonom. Prije pohrane se šifruje, podsjetnici stižu prije roka, a svako čitanje se bilježi." },
+      "toilTitle": "Prekovremeno koje postaje slobodno vrijeme",
+      "toilText": "Gdje politika firme dozvoljava, radnik za svaki dan bira da li se prekovremeno isplaćuje ili čuva. HR ga odobrava, a stanje se uvijek računa iz stvarnih dana."
+    },
+    "invoices": {
+      "title": "Fakture koje znaju gdje su",
+      "lede": "Nacrt, pregled, izdavanje, uplata. Numeraciju, djelimične uplate i označavanje dospjelih faktura Navitecs Flow radi za vas.",
+      "points": [
+        "Pošaljite fakturu jednom ili više pregledača prije izdavanja",
+        "Evidentirajte cijele ili djelimične uplate kako stižu",
+        "Neplaćene fakture same prelaze u dospjele",
+        "Preuzmite kao PDF ili Word, na svom izgledu ili memorandumu",
+        "Klijenti i troškovi sa skeniranim računima na istom mjestu"
+      ]
+    },
+    "people": {
+      "title": "Vaši ljudi, uredno organizovani",
+      "lede": "Odjeli, timovi i dozvole koji odgovaraju načinu na koji vaša firma stvarno radi.",
+      "cards": [
+        { "title": "Računi samo uz pozivnicu", "text": "Zaposleni se pridružuju putem email pozivnice i sami postavljaju lozinku." },
+        { "title": "Odjeli", "text": "Premještajte ljude između odjela i čuvajte historiju gdje su bili." },
+        { "title": "Timovi", "text": "Svaki tim ima vođu koji njime upravlja, a da ne mora biti administrator." },
+        { "title": "Rasporedi rada", "text": "Postavite radno vrijeme firme jednom, a svakoj osobi dajte vlastiti raspored s datumom." },
+        { "title": "Uloge i dozvole", "text": "Šest gotovih uloga, plus vaše vlastite, s jasnom matricom dozvola." }
+      ]
+    },
+    "tasks": {
+      "title": "Posao koji se ne gubi",
+      "lede": "Dodjeljujte zadatke osobama ili cijelim timovima. Komentari, linkovi i promjene statusa pojavljuju se uživo, svima na zadatku."
+    },
+    "notifications": {
+      "title": "Budite u toku, bez buke",
+      "lede": "Zvonce u aplikaciji kaže ljudima šta čeka na njih i vodi ih pravo tamo. Sve ostalo ostaje tiho.",
+      "items": [
+        "Maya Chen: evidencija rada je poslana.",
+        "Vaš godišnji odmor je odobren.",
+        "Dokument je potreban do sutra.",
+        "Faktura INV-2026-014 je dospjela.",
+        "Tarik vam je dodijelio zadatak."
+      ]
+    },
+    "export": {
+      "title": "Mjesečni obrazac, već popunjen",
+      "lede": "Šihterica nastaje iz evidencije rada, s jednim listom po radniku, za sve, za jedan odjel ili za odabrane osobe.",
+      "points": [
+        "Koristite ugrađeni predložak ili učitajte svoj .xlsx i mapirajte ga ćeliju po ćeliju",
+        "Godišnji pregledi i mjesečni zbirovi za svaku osobu",
+        "Stanje prekovremenog, godišnjeg i slobodnih sati na jednom mjestu"
+      ]
+    }
+  },
+  "themes": {
+    "title": "Neka bude vaše. Tim će vam biti zahvalan.",
+    "lede": "Svako bira svoj izgled i on ga prati na svakom uređaju. Ovo su stvarne teme aplikacije na stvarnom ekranu.",
+    "label": "Odaberite temu",
+    "names": { "aurora": "Aurora", "midnight": "Ponoć", "daylight": "Dnevno svjetlo", "paper": "Papir", "nebula": "Nebula", "contrast": "Visoki kontrast", "custom": "Prilagođeno" },
+    "descriptions": {
+      "aurora": "Originalni izgled: tamna pozadina s pokretnim bojama.",
+      "midnight": "Ravna tamna pozadina, bez pokretnih boja.",
+      "daylight": "Čisto i svijetlo, bez pokretnih boja.",
+      "paper": "Topao svijetli ton, ugodniji za oči pri dužem radu.",
+      "nebula": "Tamna pozadina s pokretnim bojama i zvjezdanim nebom.",
+      "contrast": "Najbolja čitljivost, s jačim tekstom i okvirima.",
+      "custom": "Odaberite vlastitu pozadinu i boje."
+    },
+    "custom": { "base": "Osnova", "dark": "Tamna", "light": "Svijetla", "canvas": "Pozadina", "colours": "Boje", "intensity": "Intenzitet", "subtle": "Blago", "normal": "Normalno", "vivid": "Živo", "motion": "Pokret", "animated": "Animirano", "still": "Mirno" }
+  },
+  "impact": {
+    "title": "Koliko vam vrijedi manje administracije?",
+    "lede": "Unesite svoje brojeve. Ne objavljujemo procjene ušteda, jer vaša firma nije prosjek.",
+    "employees": "Broj radnika",
+    "adminHours": "Sati administracije po osobi, sedmično",
+    "saved": "Koliki dio tog vremena očekujete uštedjeti",
+    "cost": "Cijena rada po satu (nije obavezno)",
+    "resultHours": "sati vraćenih svake godine",
+    "resultWeeks": "To je otprilike {weeks} punih radnih sedmica.",
+    "resultCost": "Vrijedi oko {amount} godišnje po vašoj cijeni sata.",
+    "chartLabel": "Sati na administraciji godišnje",
+    "today": "Danas",
+    "after": "Po vašoj procjeni",
+    "disclaimer": "Ovo je procjena zasnovana samo na onome što ste unijeli, za {weeks} radnih sedmica godišnje. Nije izmjeren rezultat ni garancija."
+  },
+  "pricing": {
+    "title": "Plaćate za ljude koji ga koriste",
+    "lede": "Jedna cijena po aktivnom radniku. Odaberite paket prema tome šta vam od aplikacije Navitecs Flow treba.",
+    "monthly": "Mjesečno",
+    "yearly": "Godišnje",
+    "billingLabel": "Period plaćanja",
+    "saveNote": "Dva do tri mjeseca gratis",
+    "perEmployee": "po radniku / mjesečno",
+    "popular": "Najpopularnije",
+    "seats": "Koliko radnika imate?",
+    "total": "{amount} mjesečno za radnika: {seats}",
+    "totalYearly": "{amount} mjesečno za radnika: {seats}, uz godišnje plaćanje",
+    "custom": "Po dogovoru",
+    "customNote": "Dogovaramo zajedno",
+    "everyPlan": "Svaki paket uključuje verifikaciju u dva koraka, šifrovane dokumente, sve teme, engleski i bosanski jezik te pristup putem mobilnog preglednika.",
+    "compare": "Uporedite pakete u cijelosti",
+    "compareTitle": "Uporedite sve mogućnosti",
+    "included": "Uključeno",
+    "notIncluded": "Nije uključeno",
+    "feature": "Mogućnost",
+    "plans": {
+      "essentials": { "name": "Essentials", "for": "Radno vrijeme i prisustvo za firmu bilo koje veličine.", "cta": "Počnite s paketom Essentials", "highlights": ["Evidencija rada s automatskim popunjavanjem", "Odobrenja i prekovremeno", "Rasporedi rada i praznici", "Izvoz šihterice, ugrađeni predložak", "Kalendar s privatnim linkom"] },
+      "team": { "name": "Team", "for": "Sve što timu treba za svakodnevni rad.", "cta": "Počnite s paketom Team", "highlights": ["Sve iz paketa Essentials", "Godišnji, odsustva i dokumenti", "Slobodni sati", "Zadaci i timovi", "Vaši predlošci šihterice"] },
+      "business": { "name": "Business", "for": "Vaši ljudi i vaše finansije zajedno.", "cta": "Počnite s paketom Business", "highlights": ["Sve iz paketa Team", "Fakturisanje s pregledom", "Klijenti i troškovi", "Svi načini izrade faktura", "Vlastite uloge"] },
+      "enterprise": { "name": "Enterprise", "for": "Za veće organizacije.", "cta": "Razgovarajte s nama", "highlights": ["Sve iz paketa Business", "Cijene prema obimu", "Pomoć pri prenosu podataka i predložaka"] }
+    },
+    "groups": { "time": "Radno vrijeme i prisustvo", "people": "Ljudi i posao", "finance": "Finansije", "everyPlan": "U svakom paketu", "service": "Usluga" },
+    "features": {
+      "timesheets": "Evidencija rada i kalendar", "autofill": "Automatsko popunjavanje dana i mjeseci", "approvals": "Odobrenja po mjesecu i po danu", "overtime": "Praćenje i odobravanje prekovremenog",
+      "schedules": "Rasporedi rada i praznici", "calendarFeed": "Privatni link za kalendar", "exportBuiltIn": "Izvoz šihterice, ugrađeni predložak", "exportCustom": "Izvoz šihterice, vaš predložak",
+      "departments": "Odjeli i pozivnice", "vacation": "Godišnji odmor i stanja", "absences": "Zahtjevi za odsustvo, bolovanja i dokumenti", "toil": "Slobodni sati",
+      "tasks": "Zadaci s ažuriranjem uživo", "teams": "Timovi", "customRoles": "Vlastite uloge",
+      "invoicing": "Fakturisanje s pregledom i uplatama", "clients": "Evidencija klijenata", "expenses": "Troškovi s prilozima", "templates": "Dizajner, izgled i Word predlošci faktura",
+      "twoFactor": "Verifikacija u dva koraka i pravila firme", "themes": "Sve teme", "languages": "Engleski i bosanski", "notifications": "Obavijesti u aplikaciji",
+      "volume": "Cijene prema obimu", "migration": "Pomoć pri prenosu podataka i predložaka"
+    }
+  },
+  "how": {
+    "title": "Spremni za rad u tri koraka",
+    "steps": [
+      { "title": "Registrujte firmu", "text": "Kreirajte radni prostor i potvrdite email." },
+      { "title": "Postavite raspored", "text": "Kratko podešavanje traži radno vrijeme i otvara tekući mjesec." },
+      { "title": "Pozovite tim", "text": "Svako dobija email, postavlja lozinku i može unositi sate isti dan." }
+    ]
+  },
+  "security": {
+    "title": "Napravljeno za osjetljive podatke",
+    "lede": "Evidencija rada i ljekarske potvrde zaslužuju pažnju. Evo šta Navitecs Flow radi, jednostavnim riječima.",
+    "items": [
+      { "title": "Verifikacija u dva koraka", "text": "Prijava putem authenticator aplikacije, uz rezervne kodove. Firma je može obavezati za administratore ili za sve." },
+      { "title": "Šifrovani dokumenti", "text": "Dokumenti o odsustvu i prilozi troškova šifruju se AES-256-GCM algoritmom prije pohrane." },
+      { "title": "Bilježenje pristupa dokumentima", "text": "Dokument o odsustvu može otvoriti samo vlasnik i ovlašteno osoblje, a svako čitanje se bilježi." },
+      { "title": "Kratke sesije", "text": "Pristupni tokeni traju 15 minuta. Deaktivacija osobe ili odjava sa svih uređaja stupa na snagu za otprilike 30 sekundi." },
+      { "title": "Dozvola za sve", "text": "O pristupu odlučuje matrica dozvola, a sve što nije dozvoljeno je zabranjeno." },
+      { "title": "Zaključavanje računa", "text": "Pet neuspjelih pokušaja prijave zaključava račun na 15 minuta." }
+    ]
+  },
+  "faq": {
+    "title": "Odgovori na pitanja",
+    "items": [
+      { "q": "Mogu li isprobati prije nego s nekim razgovaram?", "a": "Da. Interaktivni demo radi u vašem pregledniku, na primjeru izmišljene firme, i ne traži registraciju." },
+      { "q": "Kako se računa cijena?", "a": "Plaćate po aktivnom radniku mjesečno. Birate mjesečno ili godišnje plaćanje." },
+      { "q": "Postoji li mobilna aplikacija?", "a": "Ništa se ne instalira. Navitecs Flow je napravljen da radi u pregledniku na telefonu, uključujući fotografisanje potvrde ili računa kamerom." },
+      { "q": "Koje jezike podržava?", "a": "Cijeli proizvod je dostupan na engleskom i bosanskom, a svaka osoba bira svoj jezik." },
+      { "q": "Može li slati fakture mojim klijentima?", "a": "Fakture preuzimate kao PDF ili Word i šaljete ih sami. Uplate se evidentiraju ručno, a dospjele fakture se označavaju automatski." },
+      { "q": "Radi li s Outlookom ili Google kalendarom?", "a": "Da, u jednom smjeru. Svaka osoba dobija privatni link na koji se Outlook, Google kalendar i Apple kalendar mogu pretplatiti." },
+      { "q": "Ko može vidjeti ljekarsku potvrdu?", "a": "Samo radnik i osoblje ovlašteno za odobravanje odsustava. Datoteke su šifrovane, a svako čitanje se bilježi." },
+      { "q": "Možemo li koristiti svoj obrazac evidencije?", "a": "Da. Učitajte svoju Excel datoteku i mapirajte je ćeliju po ćeliju ili koristite ugrađeni predložak." }
+    ]
+  },
+  "cta": {
+    "title": "Pogledajte svoj mjesec u aplikaciji Navitecs Flow",
+    "lede": "Počnite demoom ili već danas napravite radni prostor za svoju firmu.",
+    "demo": "Isprobajte interaktivni demo",
+    "talk": "Razgovarajte s nama"
+  },
+  "footer": {
+    "tagline": "Evidencija rada, odsustva, zadaci i fakture u jednom povezanom radnom prostoru.",
+    "product": "Proizvod", "company": "Firma", "legal": "Pravno", "privacy": "Privatnost",
+    "rights": "Sva prava zadržana."
+  },
+  "featuresPage": {
+    "title": "Sve u aplikaciji Navitecs Flow",
+    "lede": "Svaki modul ispod već postoji u proizvodu i svaki ima vlastitu vođenu prezentaciju u demou.",
+    "tryIt": "Isprobajte u demou",
+    "groups": { "time": "Radno vrijeme i prisustvo", "off": "Odsustva", "work": "Posao", "finance": "Finansije", "people": "Ljudi i podešavanja" },
+    "modules": {
+      "timesheets": { "title": "Evidencija rada", "text": "Mjesečni kalendar s panelom dana i vremenskom linijom. Rad, pauze, kompenzacija, terenski rad, pripravnost i ostalo radno vrijeme, provjereni prema rasporedu svake osobe." },
+      "approvals": { "title": "Odobrenja", "text": "Nacrt, slanje, odobrenje ili odbijanje. Pregledači mogu označiti pojedinačne dane uz napomenu, a mjeseci se po potrebi mogu otključati." },
+      "overtime": { "title": "Prekovremeno", "text": "Računa se iz rasporeda i važi tek kad HR odobri dan, uz red za skupno odobravanje." },
+      "activeMonth": { "title": "Otvoreni mjeseci", "text": "Odredite koje mjesece radnici mogu uređivati. Svaki novi mjesec se otvara kad zatreba." },
+      "export": { "title": "Izvoz šihterice", "text": "Mjesečna Excel datoteka s jednim listom po radniku, iz ugrađenog predloška ili vašeg mapiranog .xlsx obrasca." },
+      "vacation": { "title": "Godišnji odmor", "text": "Stanja, blokovi odmora s periodima i minimalnim brojem dana, pregled u kalendaru i red za rezervacije koje više ne odgovaraju novoj politici." },
+      "absences": { "title": "Zahtjevi za odsustvo", "text": "Vaš katalog vrsta odsustva. Tražite više dana odjednom, predložite nadoknadu, a HR odobrava sa ili bez kompenzacije." },
+      "sick": { "title": "Bolovanja i dokumenti", "text": "Evidentiraju se odmah, a mogu se produžiti ili ranije završiti. Potvrde se sažimaju na telefonu, šifruju i bilježe." },
+      "toil": { "title": "Slobodni sati", "text": "Radnici biraju isplatu ili čuvanje prekovremenog gdje je dozvoljeno, vide evidenciju i koriste ga kao slobodne dane." },
+      "tasks": { "title": "Zadaci", "text": "Prioriteti, rokovi, oznake, komentari, linkovi i historija aktivnosti, za osobe ili cijele timove, uz ažuriranje uživo." },
+      "calendar": { "title": "Kalendar", "text": "Mjesečni pregled zadataka, sati, godišnjih, odsustava i praznika, plus privatni link za vašu kalendar aplikaciju." },
+      "notifications": { "title": "Obavijesti", "text": "Zvonce u aplikaciji sa skočnim obavijestima uživo i linkovima na pravi ekran." },
+      "invoices": { "title": "Fakture", "text": "Stavke s popustom i porezom, numeracija, pregled od više osoba, djelimične uplate, komentari i historija aktivnosti." },
+      "clients": { "title": "Klijenti", "text": "Potpuni podaci o klijentima s logotipima, zadanim uslovima i jezikom dokumenata." },
+      "expenses": { "title": "Troškovi", "text": "Dobavljači, porez te skenirani ili fotografisani prilozi." },
+      "templates": { "title": "Predlošci faktura", "text": "Ugrađeni dizajner, izgled na vašem memorandumu ili vaša Word datoteka s mapiranim poljima." },
+      "people": { "title": "Ljudi", "text": "Pozivnice, uloge, detaljan prikaz po osobi i sažetak o zaposlenima." },
+      "departments": { "title": "Odjeli i timovi", "text": "Historija članstva u odjelima i timovi s vođama koji njima upravljaju." },
+      "schedules": { "title": "Rasporedi rada", "text": "Zadano radno vrijeme firme s datiranim izuzecima po osobi, plus politika prekovremenog." },
+      "roles": { "title": "Uloge i dozvole", "text": "Matrica uloga po modulima, s vlastitim ulogama izvedenim iz osnovne uloge." },
+      "security": { "title": "Sigurnost računa", "text": "Verifikacija u dva koraka s rezervnim kodovima, obaveza za cijelu firmu i odjava sa svih uređaja." },
+      "appearance": { "title": "Teme i jezici", "text": "Šest tema plus prilagođena, engleski i bosanski jezik te lične vremenske zone." }
+    }
+  },
+  "solutionsPage": {
+    "title": "Jedan radni prostor. Drugačiji dan za svakoga.",
+    "lede": "Navitecs Flow svakome pokazuje ono što mu treba, i ništa više.",
+    "try": "Pogledajte u demou",
+    "roles": {
+      "workers": { "title": "Za radnike", "lede": "Unesite sate jednim klikom i uvijek znajte gdje ste.", "points": ["Popunite dan ili mjesec prema rasporedu", "Vidite stanje godišnjeg i slobodnih sati", "Prijavite bolovanje s telefona", "Birajte isplatu ili čuvanje prekovremenog gdje je dozvoljeno"] },
+      "leads": { "title": "Za vođe timova", "lede": "Znajte šta tim radi, bez zapitkivanja.", "points": ["Dodijelite posao osobama ili cijelom timu", "Pratite komentare i promjene statusa uživo", "Odobravajte zahtjeve za napuštanje zadatka", "Upravljajte timovima koje vodite"] },
+      "hr": { "title": "Za HR", "lede": "Prestanite juriti evidencije. Bavite se izuzecima.", "points": ["Jedan red za evidenciju, prekovremeno i odsustva", "Odbijte jedan dan umjesto cijelog mjeseca", "Generišite šihtericu za sve odjednom", "Primajte potvrde sigurno, uz podsjetnike na rokove"] },
+      "finance": { "title": "Za finansije", "lede": "Znajte šta je neplaćeno, šta kasni i šta čeka pregled.", "points": ["Četiri glavne brojke na vrhu liste faktura", "Pregled prije izdavanja bilo koje fakture", "Djelimične uplate i automatsko označavanje dospjelih", "Troškovi s prilozima na istom mjestu"] },
+      "owners": { "title": "Za vlasnike firmi", "lede": "Zamijenite gomilu alata i tabela jednim radnim prostorom.", "points": ["Registrujte firmu i počnite isti dan", "Postavite pravila jednom: rasporedi, godišnji, prekovremeno", "Odredite tačno ko šta smije", "Obavežite verifikaciju u dva koraka u cijeloj firmi"] }
+    }
+  },
+  "contactPage": {
+    "title": "Razgovarajte s nama",
+    "lede": "Recite nam nešto o svojoj firmi i javit ćemo vam se.",
+    "name": "Vaše ime", "email": "Poslovni email", "company": "Firma", "size": "Broj radnika", "message": "Kako vam možemo pomoći?",
+    "send": "Pošalji poruku", "sending": "Slanje",
+    "success": "Hvala, vaša poruka je poslana. Odgovorit ćemo vam emailom.",
+    "error": "Poruka nije poslana. Provjerite obrazac i pokušajte ponovo ili nam pišite na {email}.",
+    "unavailable": "Obrazac trenutno nije dostupan. Pišite nam na {email}.",
+    "rateLimited": "Previše poruka. Sačekajte nekoliko minuta ili nam pišite na {email}.",
+    "direct": "Radije email?",
+    "address": "Gdje smo",
+    "privacyNote": "Ove podatke koristimo samo da vam odgovorimo. Pogledajte stranicu o privatnosti.",
+    "planNote": "Pitate o paketu {plan}.",
+    "workspaceNote": "Recite nam nešto o svojoj firmi i zajedno ćemo postaviti vaš radni prostor."
+  },
+  "privacyPage": {
+    "title": "Privatnost",
+    "sections": [
+      { "title": "Ko smo", "text": "Ovu stranicu vodi {legalName}, {address}." },
+      { "title": "Šta prikuplja kontakt obrazac", "text": "Vaše ime, email, firmu, veličinu firme i poruku. Koristimo ih samo da vam odgovorimo." },
+      { "title": "Interaktivni demo", "text": "Demo radi u vašem pregledniku s izmišljenim podacima. Ono što unesete ostaje u pohrani sesije vašeg preglednika i ne šalje nam se." },
+      { "title": "Kontakt", "text": "Za sva pitanja o vašim podacima pišite na {email}." }
+    ]
+  },
+  "notFound": { "title": "Ova stranica ne postoji", "lede": "Link je možda star ili je adresa pogrešno upisana.", "home": "Idi na početnu stranicu" }
+}
