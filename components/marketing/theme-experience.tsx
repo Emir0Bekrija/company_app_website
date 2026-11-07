@@ -110,8 +110,9 @@ function CustomControls({ value, onChange }: { value: CustomTheme; onChange: (v:
 }
 
 /**
- * Every theme on a real screen. Scrolling moves through them until the visitor picks one
- * themselves; from then on the selector is in charge.
+ * Every theme on a real screen. Each theme owns a slice of the stage's scroll, so scrolling
+ * moves through them in order. Picking one moves the page to its slice, so scrolling carries
+ * on from there in either direction. Custom stops the scroll so its controls can be used.
  */
 export function ThemeExperience() {
   const t = useTranslations('themes')
@@ -129,6 +130,17 @@ export function ThemeExperience() {
     if (!window.matchMedia('(min-width: 1024px)').matches) return
     setPreset(auto[Math.min(auto.length - 1, Math.floor(v * auto.length))])
   })
+
+  /** Moves the page to the middle of a theme's slice of the stage. The stage is sticky, so nothing visibly jumps. */
+  function scrollToSlot(index: number) {
+    const el = stage.current
+    if (!el || reduced || !window.matchMedia('(min-width: 1024px)').matches) return
+    const top = el.getBoundingClientRect().top + window.scrollY
+    const range = el.offsetHeight - window.innerHeight
+    if (range <= 0) return
+    // Instant, because html scrolls smoothly and a glide would flash every theme on the way.
+    window.scrollTo({ top: top + (range * (index + 0.5)) / auto.length, behavior: 'instant' })
+  }
 
   const config = useMemo<ThemeConfig>(
     () => (preset === 'custom' ? { preset: 'custom', custom } : { preset }),
@@ -157,7 +169,12 @@ export function ThemeExperience() {
                       style={stagger(i * 0.6)}
                       role="radio"
                       aria-checked={preset === id}
-                      onClick={() => { setPreset(id); setPicked(true); track('theme_selected', { theme: id }) }}
+                      onClick={() => {
+                        setPreset(id)
+                        setPicked(id === 'custom')
+                        if (id !== 'custom') scrollToSlot(auto.indexOf(id))
+                        track('theme_selected', { theme: id })
+                      }}
                       className={cn('rounded-[var(--radius-control)] p-1.5 text-left text-sm font-medium', preset === id ? 'bg-fg text-band' : 'fluent fluent-control')}
                     >
                       <ThemePreview tokens={resolved.tokens} blobs={resolved.blobs} className="!h-12" />

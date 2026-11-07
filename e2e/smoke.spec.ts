@@ -386,6 +386,29 @@ test('every theme can be selected', async ({ page }) => {
   }
 })
 
+test('scrolling carries on through the themes after one is picked', async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 })
+  await page.goto('/')
+  const themes = page.locator('#themes')
+  await themes.scrollIntoViewIfNeeded()
+  await page.evaluate(() => {
+    const el = document.querySelector('#themes > div') as HTMLElement
+    window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY + 40, behavior: 'instant' })
+  })
+  const radio = (name: string) => themes.getByRole('radio', { name, exact: true })
+  await radio('Nebula').click()
+  await expect(radio('Nebula')).toHaveAttribute('aria-checked', 'true')
+  const slice = await page.evaluate(() => {
+    const el = document.querySelector('#themes > div') as HTMLElement
+    return (el.offsetHeight - window.innerHeight) / 6
+  })
+  await page.mouse.move(720, 450)
+  await page.mouse.wheel(0, -slice)
+  await expect(radio('Paper')).toHaveAttribute('aria-checked', 'true')
+  await page.mouse.wheel(0, slice * 2)
+  await expect(radio('High contrast')).toHaveAttribute('aria-checked', 'true')
+})
+
 test('contact form says how to reach us when email is not configured', async ({ page }) => {
   await page.goto('/contact')
   await page.locator('input[name=name]').fill('Test Person')
